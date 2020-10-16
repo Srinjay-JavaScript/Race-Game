@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("Race.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>Race Game</title>
+<link rel="shortcut icon" href="RaceCarLogo.jpg" type="x/image">
+</head>
+
+<body onload = "add()">
+	
+<center>
+	<h1 style="font-family: Century gothic; color: black;">Race Game</h1>
+	
+	<h2 id="gameStatus" style="font-family: Century gothic; color: black;"></h2>
+
+	<canvas id="myCanvas" width="800" height="600"></canvas>
+		
+	<h4>
+	<b class="text-danger">NOTE: </b> IF CAR IS NOT VISIBLE CLICK ON ANY ARROW KEY
+	</h4>
+	<kbd style="font-size: large;">Please click on the right, left, up, down arrow keys to move the first car.</kbd>
+	<kbd style="font-size: large">Please click on the q, w, e, r arrow keys to move the first car.</kbd>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
